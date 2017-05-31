@@ -184,6 +184,7 @@ textarea {
     border-radius: 8px;
     box-sizing: border-box;
     line-height: 1.5;
+    font-size: 12px;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
  
 }
