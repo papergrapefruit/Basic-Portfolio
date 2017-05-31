@@ -1,0 +1,189 @@
+body {
+    margin-top: 0;
+    height: auto;
+    background-image: url(../images/wild_oliva.png);
+}
+
+  #mainheader {
+  background-color: #ffffff;
+  border-bottom: medium groove #cccccc;
+  height: 80px;
+}
+
+.bumper {
+  float: left;
+  width: 140px;
+  height: 75px;
+}
+
+.bigbumper {
+    float: left;
+    width: 500px;
+    height: 75px;
+  }
+
+#mainlogo {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding: 22px;
+    text-align: center;
+    float: left;
+    height: auto;
+    z-index: 16;
+}
+
+#nav {
+  float: left;
+  background-color: #ffffff;
+  padding-top: 20px;
+  margin-top: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: darkgray;
+    }
+
+a:hover {
+    text-decoration: underline;
+}
+
+ul {
+  list-style: none;
+  list-style-position: outside;
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+li.border {
+  font-size: 18px;
+  display: list-item;
+  float: left;
+  padding-right: 20px;
+  padding-left: 20px;
+  border-right: solid 1px silver;
+}
+
+li {
+  font-size: 18px;
+  display: list-item;
+  float: left;
+  padding-right: 40px;
+  padding-left: 20px;
+}
+
+#contentarea {
+    width: 960px;
+    padding-left: 140px;
+}
+  h1 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 36px;
+    font-weight: bold;
+  }
+
+  h2.section {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 30px;
+    font-weight: bold;
+    color:  #4aaaa5;
+    line-height: 2.5;
+  }
+
+  p {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    font-size: 18px;
+    line-height: 1.5;
+
+  }
+
+  #footertext {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: lightgray;
+    font-size: 100%;
+    line-height: 2;
+  }
+
+.wedge {
+  clear: both;
+  width: 400px;
+  height: 500px;
+}
+
+.maincontent {
+  display: block;
+  width:  960px;
+  position: static;
+}
+
+.articlebox {
+    border: #dddddd;
+    border-style: solid;
+    border-width: .5px;
+    background-color: #ffffff;
+    margin-left: 0px;
+    width: 470px;
+    margin-top: 50px;
+    padding: 25px;
+    float: left;
+  }
+  .sidebar {
+    border: #dddddd;
+    border-style: solid;
+    border-width: .5px;
+    background-color: #ffffff;
+      margin-top: 50px;
+      margin-left: 100px;
+      padding: 2.5%;
+      width: 270px;
+      float: right;
+      vertical-align: middle;
+    }
+
+footer {
+   background:#666666;
+   text-align: center;
+   clear: right;
+   width: 100%;
+   padding: 20px;
+   margin-top: 550px;
+   position: sticky;
+   border-top: solid #4aaaa5 12px;
+
+}
+
+img.space {
+float: left;
+padding-left: 15px;
+padding-top: 15px;
+padding-right: 15px;
+
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 10px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+    line-height: 1.5;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+ 
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+    resize: both;
+    padding: 10px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+    line-height: 1.5;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+ 
+}
